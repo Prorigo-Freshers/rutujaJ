@@ -1,5 +1,5 @@
 using System;
-class Program
+class bitwise
 {
     public static void Main(string[] args)
     {
