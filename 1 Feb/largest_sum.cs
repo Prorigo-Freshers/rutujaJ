@@ -9,7 +9,7 @@ class largest_sum
 
         for (int i = 1; i < input.Length; i++) {
             currentSum = Math.Max(input[i],currentSum + input[i]);
-            maxSum = Math.Max(maxSum,currentSum;
+            maxSum = Math.Max(maxSum,currentSum);
         }
         Console.WriteLine("Output: " + maxSum);
     }
