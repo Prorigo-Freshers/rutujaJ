@@ -6,10 +6,7 @@ class Program
     {
         int N = 10;
         int sum = 0;
-        for(int i = 1; i <= N; i++)
-        {
-            sum += i;
-        }
+        int sum = N * (N + 1) / 2;
         Console.WriteLine(sum);
     }
 }
