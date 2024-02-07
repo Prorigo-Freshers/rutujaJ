@@ -1,3 +1,4 @@
+﻿//Problem Description No 2:Find all character count of given string 
 function characterCount(str) {
     const count = {};
     for (let i = 0; i < str.length; i++) {
