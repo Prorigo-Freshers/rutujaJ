@@ -1,3 +1,5 @@
+//Given a string s, find the length of the longest substring without repeating characters.
+ 
 const s = "abcabcbb";
 let maxLength = 0;
 let start = 0;
